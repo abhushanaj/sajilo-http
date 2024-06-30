@@ -1,5 +1,7 @@
+import { SUCCESS_CODES } from "./core/success";
+
 const ALL_CODES = {
-  SUCCESS: 200,
+  ...SUCCESS_CODES,
 };
 
 export default ALL_CODES;
