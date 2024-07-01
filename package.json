@@ -1,48 +1,49 @@
 {
-  "name": "@abhushanaj/simple-hrsc",
-  "version": "0.0.1",
-  "description": "A TypeScript-based npm package that provides HTTP response status codes with semantic names for enhanced readability and type safety.",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "types": "dist/types/index.d.ts",
-  "files": [
-    "dist"
-  ],
-  "private": false,
-  "type": "module",
-  "scripts": {
-    "dev": "npm-run-all clean && rollup -c -w",
-    "bundle": "rollup -c",
-    "clean": "rimraf dist",
-    "typecheck": "tsc --noEmit --pretty",
-    "build": "npm-run-all clean bundle",
-    "prettier:format": "pnpm exec prettier . --write",
-    "prettier:check": "pnpm exec prettier . --check"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/abhushanaj/simple-hrsc.git"
-  },
-  "keywords": [
-    "http-status-code",
-    "response-status-codes"
-  ],
-  "author": "Abhushan A. Joshi",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/abhushanaj/simple-hrsc/issues"
-  },
-  "homepage": "https://github.com/abhushanaj/simple-hrsc#readme",
-  "devDependencies": {
-    "@rollup/plugin-terser": "^0.4.4",
-    "@rollup/plugin-typescript": "^11.1.6",
-    "@types/node": "^20.14.9",
-    "npm-run-all": "^4.1.5",
-    "prettier": "3.3.2",
-    "rimraf": "^5.0.7",
-    "rollup": "^4.18.0",
-    "rollup-plugin-dts": "^6.1.1",
-    "tslib": "^2.6.3",
-    "typescript": "^5.5.2"
-  }
+	"name": "@abhushanaj/sajilo-http",
+	"version": "0.0.0",
+	"description": "Personal npm package designed to provide a comprehensive collection of common HTTP status codes, their corresponding messages, and common exceptions.",
+	"main": "dist/cjs/index.js",
+	"module": "dist/esm/index.js",
+	"types": "dist/types/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"private": false,
+	"type": "module",
+	"scripts": {
+		"dev": "npm-run-all clean && rollup -c -w",
+		"bundle": "rollup -c",
+		"clean": "rimraf dist",
+		"typecheck": "tsc --noEmit --pretty",
+		"build": "npm-run-all clean bundle",
+		"prettier:format": "pnpm exec prettier . --write",
+		"prettier:check": "pnpm exec prettier . --check"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/abhushanaj/simple-hrsc.git"
+	},
+	"keywords": [
+		"http-status-code",
+		"response-status-codes"
+	],
+	"author": "Abhushan A. Joshi",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/abhushanaj/simple-hrsc/issues"
+	},
+	"homepage": "https://github.com/abhushanaj/simple-hrsc#readme",
+	"devDependencies": {
+		"@changesets/cli": "^2.27.6",
+		"@rollup/plugin-terser": "^0.4.4",
+		"@rollup/plugin-typescript": "^11.1.6",
+		"@types/node": "^20.14.9",
+		"npm-run-all": "^4.1.5",
+		"prettier": "3.3.2",
+		"rimraf": "^5.0.7",
+		"rollup": "^4.18.0",
+		"rollup-plugin-dts": "^6.1.1",
+		"tslib": "^2.6.3",
+		"typescript": "^5.5.2"
+	}
 }
