@@ -1,6 +1,6 @@
 {
 	"name": "@abhushanaj/sajilo-http",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "Personal npm package designed to provide a comprehensive collection of common HTTP status codes, their corresponding messages, and common exceptions.",
 	"main": "dist/cjs/index.js",
 	"module": "dist/esm/index.js",
