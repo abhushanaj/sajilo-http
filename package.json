@@ -8,8 +8,11 @@
 	"files": [
 		"dist"
 	],
-	"private": false,
 	"type": "module",
+	"private": false,
+	"publishConfig": {
+		"access": "public"
+	},
 	"scripts": {
 		"dev": "npm-run-all clean && rollup -c -w",
 		"bundle": "rollup -c",
